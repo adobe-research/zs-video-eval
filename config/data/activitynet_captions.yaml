@@ -1,0 +1,10 @@
+_target_: aligner.data.grounding.activitynet_captions.ActivityNetCaptionsDataModule
+base_path: /ibex/project/c2134/datasets/activitynet_captions/
+clip_length_in_frames: 4
+frames_between_clips: 4
+frame_rate: 1
+dataset_name: activitynet_captions
+eval_batch_size:  128
+num_workers: 16
+use_motion_vectors: False
+use_residuals: False

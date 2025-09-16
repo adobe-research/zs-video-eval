@@ -1,0 +1,10 @@
+_target_: aligner.data.grounding.charades_sta.CharadesSTADataModule
+base_path: /ibex/project/c2134/datasets/charades_sta/
+clip_length_in_frames: 4
+frames_between_clips: 4
+frame_rate: 1
+dataset_name: charades_sta
+eval_batch_size:  256
+num_workers: 16
+use_motion_vectors: False
+use_residuals: False

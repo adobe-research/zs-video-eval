@@ -1,0 +1,14 @@
+defaults:
+  - openclip_from_pretrained
+  - _self_
+
+model:
+  name: ViT-B/32
+  pretrained: openai
+  precision: amp
+  device: cuda:0
+  output_dict: True
+  force_quick_gelu: False
+  force_patch_dropout: 0.0
+  force_inference_patch_dropout: False
+  inference_patch_dropout_mode: uniform

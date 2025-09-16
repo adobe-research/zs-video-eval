@@ -1,0 +1,25 @@
+name: sm
+dependencies:
+  - python=3.8
+  - pip=21
+  - pip:
+    - git+https://github.com/bryant1410/cached_path@10d733d
+    - git+https://github.com/openai/CLIP@40f5484
+    - decord>=0.6.0
+    - flask==2.*
+    - flask-cors==3.*
+    - google-cloud-speech==2.*
+    - hydra_colorlog==1.1.*
+    - hydra-optuna-sweeper==1.1.*
+    - matplotlib==3.*
+    - overrides==6.*
+    - pillow==8.*
+    - pytest
+    - seaborn==0.11.*
+    - transformers>=4.15.0,<4.22.0
+    - av
+    - pytorch-lightning==1.7.7
+    - torchmetrics==0.7.3
+    - rich==13.3.4
+    - wandb
+    - h5py

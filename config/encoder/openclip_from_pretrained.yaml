@@ -1,0 +1,26 @@
+defaults:
+  - openclip
+  - _self_
+
+model:
+  _target_: aligner.encoder.openclip_video_text_encoder.load_openclip_model
+  force_quick_gelu: True
+  force_image_size: null
+  force_output_dim: -1
+  force_patch_dropout: 0.0
+  force_inference_patch_dropout: False
+  inference_patch_dropout_mode: uniform
+  use_residual_feat: False
+  residual_token_dim: 512
+  residual_token_projection_num_layers: 1
+  use_patch_merging: False
+  patch_merging_r: 0
+  distill_force_image_size: null
+  distill_model: null
+  distill_pretrained: openai
+  distill_force_patch_dropout: 0.0
+  distill_force_inference_patch_dropout: False
+  distill_inference_patch_dropout_mode: uniform
+  name: ???
+
+use_residual_feat: False
